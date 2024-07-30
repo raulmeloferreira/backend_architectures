@@ -1,0 +1,43 @@
+O livro "Microservices Patterns" por Chris Richardson é uma referência valiosa para desenvolvedores que trabalham com microservices, fornecendo uma ampla gama de padrões que abordam diversos aspectos da arquitetura de microservices. Aqui estão alguns dos principais padrões descritos no livro:
+
+1. Decomposition Patterns
+Decompose by Business Capability: Dividir a aplicação em serviços correspondentes às capacidades de negócios.
+Decompose by Subdomain: Dividir a aplicação em serviços correspondentes aos subdomínios do modelo de domínio.
+2. Communication Patterns
+API Gateway: Um ponto de entrada único que rotea chamadas para os serviços apropriados.
+Backend for Frontend (BFF): Um serviço de backend especializado para uma interface de usuário ou aplicativo específico.
+Client-Side Discovery: Clientes determinam e chamam diretamente os serviços.
+Server-Side Discovery: Um servidor intermediário (como um load balancer) resolve a localização do serviço.
+3. Data Management Patterns
+Database per Service: Cada serviço tem seu próprio banco de dados privado.
+Shared Database: Vários serviços compartilham um banco de dados comum (geralmente considerado uma antipattern).
+Saga: Gerenciamento de transações distribuídas por meio de uma sequência de transações locais com operações de compensação.
+CQRS (Command Query Responsibility Segregation): Separação de comandos (escrita) e consultas (leitura) em modelos diferentes.
+Event Sourcing: Armazenar o estado da aplicação como uma sequência de eventos.
+4. Transaction Patterns
+Transactional Outbox: Garante que eventos sejam publicados sempre que uma transação de banco de dados for concluída.
+Polling Publisher: Publica eventos de mudança de dados com base em verificações periódicas de alterações no banco de dados.
+5. Query Patterns
+API Composition: Composição de dados de múltiplos serviços para fornecer uma resposta unificada.
+CQRS: Já mencionado anteriormente, separa operações de leitura e escrita.
+6. Cross-Cutting Concerns Patterns
+Externalized Configuration: Configurações externas ao serviço, permitindo mudanças sem recompilação.
+Microservice Chassis: Um framework para construir serviços com suporte integrado para preocupações transversais como logging, monitoramento, e segurança.
+Service Mesh: Infraestrutura dedicada que lida com a comunicação de rede entre serviços (ex.: Istio, Linkerd).
+7. Testing Patterns
+Service Component Test: Teste de componentes de serviço individualmente.
+Consumer-Driven Contract Test: Testes baseados em contratos definidos pelos consumidores do serviço.
+End-to-End Test: Teste que abrange todo o sistema, desde a entrada até a saída final.
+8. Deployment Patterns
+Multiple Service Instances per Host: Múltiplas instâncias de serviço rodando no mesmo host (ou máquina virtual).
+Service Instance per Host: Uma instância de serviço por host.
+Service Instance per Container: Uma instância de serviço por contêiner Docker.
+Serverless Deployment: Serviços rodando em um ambiente serverless.
+9. Observability Patterns
+Log Aggregation: Centralizar e agregar logs de múltiplos serviços.
+Metrics: Coleta de métricas para monitoramento e análise de performance.
+Distributed Tracing: Rastreamento de requisições através de múltiplos serviços para diagnosticar problemas.
+10. Security Patterns
+Access Token: Uso de tokens para autenticação e autorização.
+API Gateway Security: Implementação de segurança no API Gateway, como autenticação e autorização centralizadas.
+Esses padrões fornecem um framework abrangente para a construção, implementação, manutenção e operação de microservices. Cada padrão aborda desafios específicos encontrados em arquiteturas de microservices, fornecendo soluções práticas e bem testadas.
