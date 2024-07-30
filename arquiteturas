@@ -1,0 +1,29 @@
+1. Batch Jobs
+
+Quando usar:
+
+Processamento de grandes volumes de dados: Quando você precisa processar grandes conjuntos de dados de uma só vez, como na análise de dados, geração de relatórios, e tarefas de ETL (extração, transformação e carregamento).
+Tarefas programadas ou periódicas: Para atividades que devem ser executadas em intervalos regulares, como backups de banco de dados, limpeza de logs, e reconciliação de dados.
+Tarefas que podem ser executadas fora do horário de pico: Processos que não precisam de resposta imediata e podem ser executados durante períodos de baixa carga do sistema.
+
+2. Microservices
+
+Quando usar:
+
+Aplicações complexas e escaláveis: Quando você precisa construir uma aplicação grande e complexa que requer alta escalabilidade e manutenção fácil. Cada microservice pode ser desenvolvido, implantado e escalado de forma independente.
+Desenvolvimento ágil e distribuído: Quando diferentes equipes precisam trabalhar em partes diferentes da aplicação simultaneamente, sem interferências.
+Resiliência e alta disponibilidade: Microservices podem ser isolados para que falhas em um serviço não afetem outros, aumentando a resiliência e a disponibilidade do sistema.
+
+3. Functions (ou Functions as a Service, FaaS)
+
+Quando usar:
+
+Execução de código em resposta a eventos: Quando você precisa executar uma pequena quantidade de código em resposta a eventos específicos, como upload de arquivos, alterações em um banco de dados, ou requisições HTTP.
+Escalabilidade sob demanda: Quando você quer pagar apenas pelo tempo de execução do código e não deseja gerenciar infraestrutura. Ideal para cargas de trabalho imprevisíveis que podem variar muito.
+Tarefas pequenas e isoladas: Quando as tarefas são pequenas, independentes e não precisam de um contexto de execução prolongado. Exemplos incluem notificações, validação de dados, e integração com outros serviços.
+
+Exemplos Práticos
+
+Batch Jobs: Processar diariamente os registros de transações de um banco, gerando relatórios de vendas mensais, ou atualizando um data warehouse.
+Microservices: Construir uma plataforma de e-commerce onde serviços independentes cuidam de catálogo de produtos, carrinho de compras, pagamento, e gerenciamento de usuários.
+Functions: Executar uma função que redimensiona e armazena imagens após o upload em um serviço de armazenamento na nuvem, ou disparar uma notificação por e-mail quando uma nova ordem é criada.
