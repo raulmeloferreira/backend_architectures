@@ -1,3 +1,14 @@
+Batch Jobs
+Definição: Processos que executam grandes volumes de tarefas em lote, geralmente programados ou sob demanda, sem necessidade de interação em tempo real.
+
+Microservices
+Definição: Arquitetura onde a aplicação é dividida em pequenos serviços independentes, cada um com uma funcionalidade específica, comunicando-se via APIs.
+
+Functions (Functions as a Service, FaaS)
+Definição: Pequenos pedaços de código que são executados em resposta a eventos, geralmente sem gerenciamento de infraestrutura, escalando automaticamente conforme necessário.
+
+
+
 1. Batch Jobs
 
 Quando usar:
