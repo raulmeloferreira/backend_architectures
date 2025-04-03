@@ -26,6 +26,7 @@
 ## What do we do?
 - Design and maintain frameworks and SDKs for scalable microservices development (e.g., boilerplate generation, observability, authentication)  
 - Provide reusable backend assets used by product teams across the globe  
+- Deliver **architecture capabilities** that support the squads building business-critical solutions  
 - Ensure governance, security, and alignment with global architecture guidelines  
 - Actively **evaluate emerging technologies** to improve performance, reduce infrastructure costs, and accelerate development cycles  
 - Build on top of proven industry tools and best practices to ensure stability and adoption
@@ -35,8 +36,10 @@
 ## How do we do it?
 - We follow an internal Open Source model (frameworks are built and evolved collaboratively)  
 - Our roadmap is driven by real pain points from product teams and adoption metrics  
-- We work in close partnership with global architecture, security, and SRE teams  
-- We leverage automation, CI/CD pipelines, and infrastructure as code to scale consistently
+- We align our deliveries with the company and other squads using the **SAFe (Scaled Agile Framework)** model, ensuring synchronization with **business milestones**  
+- We collaborate closely with global architecture, security, and SRE teams  
+- We leverage automation, CI/CD pipelines, and infrastructure as code to scale consistently  
+- We use tools like **Git**, **ServiceNow**, and **Microsoft Teams** to ensure transparent, traceable, and effective collaboration across regions
 
 ---
 
