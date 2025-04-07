@@ -1,0 +1,254 @@
+Ótimo, vamos continuar exatamente no mesmo padrão — tudo corrido e completo!
+
+⸻
+
+User Story 10: Rename darwin-spring-boot-logging-logback-kafka-appender to gluon-spring-boot-logging-logback-kafka-appender
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-logging-logback-kafka-appender to gluon-spring-boot-logging-logback-kafka-appender, aligning with the Gluon Spring Boot naming convention.
+
+Acceptance Criteria:
+	•	The folder and project files are renamed.
+	•	Build scripts are updated.
+	•	Internal references are corrected.
+	•	The project compiles successfully.
+	•	All tests pass.
+	•	Documentation is updated.
+	•	A Pull Request is created.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-logging-logback-kafka-appender.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references from “darwin” to “gluon.”
+	•	Build the project and verify compilation.
+	•	Run unit and integration tests.
+	•	Update documentation if necessary.
+	•	Submit a Pull Request.
+
+⸻
+
+User Story 11: Rename darwin-spring-boot-logging-logback to gluon-spring-boot-logging-logback
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-logging-logback to gluon-spring-boot-logging-logback, to maintain consistency with the updated framework naming.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-logging-logback.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build and validate compilation.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 12: Rename darwin-spring-boot-logging to gluon-spring-boot-logging
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-logging to gluon-spring-boot-logging, supporting the Gluon branding initiative.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-logging.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build and validate.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 13: Rename darwin-spring-boot-metrics to gluon-spring-boot-metrics
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-metrics to gluon-spring-boot-metrics, ensuring the metrics module aligns with the new naming standards.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-metrics.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 14: Rename darwin-spring-boot-omnichannel to gluon-spring-boot-omnichannel
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-omnichannel to gluon-spring-boot-omnichannel, reflecting the Gluon branding.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-omnichannel.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 15: Rename darwin-spring-boot-parent to gluon-spring-boot-parent
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-parent to gluon-spring-boot-parent, aligning the parent project with the framework’s new name.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-parent.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 16: Rename darwin-spring-boot-partenon to gluon-spring-boot-partenon
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-partenon to gluon-spring-boot-partenon, standardizing the module name.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-partenon.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 17: Rename darwin-spring-boot-security-authentication to gluon-spring-boot-security-authentication
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-security-authentication to gluon-spring-boot-security-authentication, ensuring security modules reflect the new framework.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-security-authentication.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 18: Rename darwin-spring-boot-security-authorization to gluon-spring-boot-security-authorization
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-security-authorization to gluon-spring-boot-security-authorization, in line with the new branding.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-security-authorization.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 19: Rename darwin-spring-boot-starters to gluon-spring-boot-starters
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-starters to gluon-spring-boot-starters, ensuring a consistent starting point for applications using the framework.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-starters.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 20: Rename darwin-spring-boot-test to gluon-spring-boot-test
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-test to gluon-spring-boot-test, to maintain consistency across the test utilities.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-test.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+User Story 21: Rename darwin-spring-boot-webservice to gluon-spring-boot-webservice
+
+Description:
+As a developer, I want to rename the module darwin-spring-boot-webservice to gluon-spring-boot-webservice, aligning the web services module with the Gluon framework.
+
+Acceptance Criteria:
+	•	Same as above.
+
+Tasks:
+	•	Rename the module folder to gluon-spring-boot-webservice.
+	•	Update pom.xml or build.gradle.
+	•	Update internal references.
+	•	Build the project.
+	•	Run tests.
+	•	Update documentation.
+	•	Submit Pull Request.
+
+⸻
+
+Finalizado!
+
+Agora você tem todas as 21 User Stories completas, com descrição, acceptance criteria, e tasks internas.
+
+Pronto para copiar no backlog, documentar ou distribuir para o time!
+
+⸻
+
+Se quiser também, eu posso gerar:
+	•	Um arquivo .docx pronto para você baixar.
+	•	Um modelo .csv para importar no Jira/DevOps.
+	•	Ou ainda, te ajudar a quebrar em Sprints, se quiser montar um plano de execução.
+
+Quer que eu já te entregue em arquivo também?
+(Me fala: DOCX, PDF ou CSV!)
+Só responder que faço rapidão!
